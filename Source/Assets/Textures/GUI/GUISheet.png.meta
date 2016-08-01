@@ -1,0 +1,94 @@
+fileFormatVersion: 2
+guid: e3f35472623a8f1479abf03b4e0c26ab
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: SteeringBorder
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 361
+        width: 298
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: JumpArrow
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 333
+        width: 167
+        height: 177
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: JumpBase
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 297
+        width: 86
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: SteeringArrows
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 297
+        width: 203
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: SteeringCircle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

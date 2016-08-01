@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A871D41D-131E-2FDF-42D3-EB740CF1E920}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AndroidControlScript.cs" />
+     <Compile Include="Assets\Scripts\BallUtilityScript.cs" />
+     <Compile Include="Assets\Scripts\BoostTrailScript.cs" />
+     <Compile Include="Assets\Scripts\CameraPositioningScript.cs" />
+     <Compile Include="Assets\Scripts\CameraUtilityScript.cs" />
+     <Compile Include="Assets\Scripts\CollectableScript.cs" />
+     <Compile Include="Assets\Scripts\CountdownScript.cs" />
+     <Compile Include="Assets\Scripts\GUI\FreePlacementScript.cs" />
+     <Compile Include="Assets\Scripts\GUI\GUIScript.cs" />
+     <Compile Include="Assets\Scripts\GUI\OverviewAreaRenderer.cs" />
+     <Compile Include="Assets\Scripts\GUI\OverviewGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlaceableMenu.cs" />
+     <Compile Include="Assets\Scripts\GUI\SplashScreen.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GoalScript.cs" />
+     <Compile Include="Assets\Scripts\LapTime.cs" />
+     <Compile Include="Assets\Scripts\LapTimerScript.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\ConnectedPlayer.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\LobbyScript.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MenuCamera.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\StartGame.cs" />
+     <Compile Include="Assets\Scripts\MovementSmoothing.cs" />
+     <Compile Include="Assets\Scripts\Network\InGameNetworkScript.cs" />
+     <Compile Include="Assets\Scripts\Network\KulanNetworkScript.cs" />
+     <Compile Include="Assets\Scripts\Network\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\OutOfBoundScript.cs" />
+     <Compile Include="Assets\Scripts\OverviewCameraScript.cs" />
+     <Compile Include="Assets\Scripts\PickupParticlesScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\BumperScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\FanScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\HexTrapTriggerScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\JumpPadScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\Lightning.cs" />
+     <Compile Include="Assets\Scripts\Placeables\ObstaclePlacementScript.cs" />
+     <Compile Include="Assets\Scripts\Placeables\PlaceableParameters.cs" />
+     <Compile Include="Assets\Scripts\Placeables\TurretScript.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\BallControlScript.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\DrawOverviewBallScript.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\MakeStaticScript.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\ObstacleMenu.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\ObstaclePlacementScript_Old.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\Player2StartupScript.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\PolygonTestScript.cs" />
+     <Compile Include="Assets\Scripts\ProbablyUnused\TowerScript.cs" />
+     <Compile Include="Assets\Scripts\Spectator\SpectatorCamScript.cs" />
+     <Compile Include="Assets\Scripts\Spectator\SpectatorCamTriggerScript.cs" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\Materials\Hard Surface Free\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{25920091-05CD-B95E-37BE-8C8BF029A0B3}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
